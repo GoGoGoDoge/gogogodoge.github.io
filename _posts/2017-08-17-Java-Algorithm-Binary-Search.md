@@ -4,13 +4,11 @@ title: "Java-Algorithm-Binary-Search"
 date: 2017-08-17
 ---
 
-## {{page.title}} ##
-
+### {{page.title}} ###
 It was dated back when I sat in the class to learn some algorithm stuff. Discover the computer world is so amazing and full of wit everywhere.
 
 ***
-### The stop matters! ###
-
+#### The stop matters! ####
 Let us solve a puzzle. Where the lo stops?
 ```
     int[] arr = new int[]{1,3,5,7};
@@ -51,12 +49,12 @@ Any difference?
 In the second case lo will be index 0, where we expect lower or equals to target
 
 ***
-### Let us go further ###
+#### Let us go further ####
 How about the target becomes 0. Things start to mess up. Both cases return 0 index.
 But for the second case, the assumption lower or equals to target cannot stand...
 It can be so error prone..
 
-### Not only index matter ###
+#### Not only index matter ####
 Maybe we can use it to search for values? To be continue...
 
 Try this out...
