@@ -13,17 +13,21 @@ Even a tree does not require balance, it can be still very difficult to code. Es
 Here I sat in the class and taught myself from the following website:
 
 Recursion is our friend.
-[Binary Search Tree]: https://www.youtube.com/watch?v=vWchQ0Di7yM&feature=youtu.be&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W
+
+Here is a tutorial, [Binary Search Tree](https://www.youtube.com/watch?v=vWchQ0Di7yM&feature=youtu.be&list=PL5iJcUfx7xTejYSchSm1igNJ2M1wcIg0W)
 
 ### Use case Huffman Coding ###
 
 If we look into standard ASCII, normally it is represented by 7 bits. It might be surprise if we can compress than. The trick lies on the frequency. Some characters actually happen more frequent than others.
 
 Actually it is done by the following steps:
+
 1. Create nodes with two attributes character of course and its frequency
 2. Combine lowest two frequency nodes into a tree and sum up their frequency
 3. Repeat until all nodes are combined into a tree
 4. Label the left branch as 0 and right branch as 1
+
+Here is my demo code to construct the huffman coding
 
 ```
 import java.util.*;
