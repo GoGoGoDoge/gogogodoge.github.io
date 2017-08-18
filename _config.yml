@@ -1,0 +1,4 @@
+name: GoGoGo Doge
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+theme: minima
