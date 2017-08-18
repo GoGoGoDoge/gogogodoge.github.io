@@ -16,7 +16,7 @@ Concept: Load Factor is the ratio of the number of data items in a hash table to
 
 There are mainly linear probing, quadratic probing and double hashing.
 
-#### Linear Probing and Quadratic Probing ####
+### Linear Probing and Quadratic Probing ###
 
 It shall be noted that when load factor approaches 1, search time could be really slow. When collision happens, linear searching the next available slot to place data. For quadratic probing, it is jumps searching slot in 4, 9, 16 manners.
 
@@ -29,4 +29,4 @@ I append a linked list to where the collision happens in the hash array! In this
 ### Interesting to point out umh... ###
 
 1. Map interface in Java is not an extension of the collection interface
-2. HashSet is slightly faster than HashMap in practice. HashSet implements the Set interface using HashMap instance and use a dummy object as the value part. 
+2. HashSet is slightly faster than HashMap in practice. HashSet implements the Set interface using HashMap instance and use a dummy object as the value part.
