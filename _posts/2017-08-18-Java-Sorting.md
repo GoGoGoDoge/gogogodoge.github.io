@@ -16,6 +16,7 @@ The reason is because merge sort is stable while quick sort does not guarantee.
 There are two ways to use it based on situation. One of them is invented by Dijkstra to tackle repeated elements.
 
 By adding two more variables including the lt and gt, this turns out to be very fast.
+
 ---
 
 Find the kth largest element in an array O(n)
