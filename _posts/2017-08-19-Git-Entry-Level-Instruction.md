@@ -83,4 +83,4 @@ Otherwise you can just push:
 > git push
 
 ---
-Now everything settled down. Let us have fun with Professor Shin's project, my big leg. 
+Now everything settled down. Let us have fun with Professor Shin's project, my big leg.
