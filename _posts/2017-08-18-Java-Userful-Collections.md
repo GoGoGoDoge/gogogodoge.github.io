@@ -7,9 +7,9 @@ date: 2017-08-18
 ## {{page.title}} ##
 
 There are some useful collection utilization:
-    - TreeMap
-    - TreeSet
-    - Deque (ArrayDeque)
+* TreeMap
+* TreeSet
+* Deque (ArrayDeque)
 
 ---
 ### TreeMap ###
@@ -58,12 +58,12 @@ Another four important apis are "floorKey(inclusive less than or equal to key)",
 ---
 
 Very similar apis just without key:
-    - higher
-    - lower
-    - floor
-    - ceiling
-    - (Careful) pollFirst
-    - (Careful) pollLast
+* higher
+* lower
+* floor
+* ceiling
+* (Careful) pollFirst
+* (Careful) pollLast
 
 ---
 ### ArrayDeque ###
@@ -72,11 +72,11 @@ Very similar apis just without key:
 Not thread safe! Not allow NULL elements. Linear collection support insert and remove at both ends.
 
 Must use following to avoid misunderstanding:
-    - getFirst() //do not remove
-    - getLast() //do not remove
-    - peekFirst()
-    - peekLast()
-    - pollFirst() //remove can return null
-    - pollLast() //remove can return null
-    - offerFirst()
-    - offerLast()
+* getFirst() //do not remove
+* getLast() //do not remove
+* peekFirst()
+* peekLast()
+* pollFirst() //remove can return null
+* pollLast() //remove can return null
+* offerFirst()
+* offerLast()
