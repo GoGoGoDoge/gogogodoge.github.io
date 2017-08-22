@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cloud-Parallel-Processing-Large-Dataset"
+title: "Cloud-Iterative-Processing-with-Spark"
 date: 2017-08-21
 ---
 
