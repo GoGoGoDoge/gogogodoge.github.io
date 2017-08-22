@@ -99,6 +99,6 @@ Another exciting part of the project is I can use the expensive Redis. I directl
 Amazon ElasticCache is used for Redis.
 
 I have to design my output format class for Redis after the reducer part. The difficulty also comes from here.
-1. Write a class to extent `FileOutputFormat`, this is similar to HBase, I did not modify the key value type for the Reducer class but define my own FileOutputFormat then, hadoop will not output to hdfs but directly to Redis 
+1. Write a class to extent `FileOutputFormat`, this is similar to HBase, I did not modify the key value type for the Reducer class but define my own FileOutputFormat then, hadoop will not output to hdfs but directly to Redis
 2. Override the getRecordWriter
 3. Also requires a protected to extend RecordWriter
